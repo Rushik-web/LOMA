@@ -7,6 +7,7 @@ import json
 import time
 import platform
 import os
+
 from evtx import PyEvtxParser
 try:
     import win32evtlog  # Windows-specific library
